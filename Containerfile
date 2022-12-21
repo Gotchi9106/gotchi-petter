@@ -1,4 +1,4 @@
-FROM node:17
+FROM docker.io/node:18
 WORKDIR /usr/src/app
 RUN npm install pm2 -g
 COPY package*.json ./
